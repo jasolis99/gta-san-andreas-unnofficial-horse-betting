@@ -34,6 +34,16 @@ function App() {
                 Opciones
               </a>
             </li>
+            <li onMouseEnter={play}>
+              <a
+                className="App-link"
+                href="https://reactjs.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Salir
+              </a>
+            </li>
         </ul>
       </section>
     </div>
